@@ -1,0 +1,17 @@
+
+
+[x] cargar el trucker con el sprite
+    [x] porque el fondo del sprite es negro? 
+    [x] ver que no vaya tan rapido 
+    [x] ver porque hay una imagen negra ahi metida
+[x] hacer el fondo dinamico
+[x] simular movimiento usando el fondo
+
+[x] lograr que si el jugador toca los obstaculos por arriba, que no se muera
+[x] agregar cosas que den puntaje
+[x] armar bien la pantalla de game over (mostrando puntaje)
+
+[ ] modificar el menu para poder dar instrucciones de uso
+[ ] agregar imagen al menu (sacar de interneti) 
+
+[ ] modificar los Asset para poder elegir la "frecuencia" con la que deberian mostrarse
