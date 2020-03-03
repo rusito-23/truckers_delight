@@ -9,12 +9,13 @@ from sprites.obstacle import Obstacle
 from sprites.coin import Coins
 from sprites.menu_option import MenuOption
 
-
 class Main:
 
     def __init__(self):
         # screen
-        self.screen = pygame.display.set_mode((width, height))
+        flags = pygame.DOUBLEBUF | pygame.HWSURFACE 
+        self.screen = pygame.display.set_mode((0, 0), flags)
+        self.screen.set_alpha(None)
         self.screen.fill(config.SKY)
         # display
         pygame.display.set_caption("Truckers Delight")
@@ -245,5 +246,6 @@ class Main:
 
 
 if __name__ == "__main__":
+    pygame.init()
     main = Main()
     main.menu()

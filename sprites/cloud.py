@@ -2,7 +2,7 @@ import pygame
 from extras.util import Image, path_for
 from extras.spritesheet import spritesheet
 import random
-from scenario import Asset
+from sprites.scenario import Asset
 
 
 class Cloud(Asset):

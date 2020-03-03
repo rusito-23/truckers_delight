@@ -1,7 +1,7 @@
 import pygame
-from scenario import Asset
+from sprites.scenario import Asset
 from extras.util import load_image, Image
-from trucker import State
+from sprites.trucker import State
 
 
 class Obstacle(Asset):
