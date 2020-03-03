@@ -15,4 +15,5 @@ python main.py
 ## DEMO
 
 (low FPS are due to gif convertion)
+[Demo](demo/demo.gif)
 ![demo/demo.gif](Demo)
